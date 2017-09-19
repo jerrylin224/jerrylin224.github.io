@@ -87,10 +87,17 @@ body {
 /* Custom page CSS
 -------------------------------------------------- */
 
+p {
+  font-size: 20px;
+}
+
 .container {
   width: auto;
-  max-width: 800px;
+  max-width: 900px;
   text-align: center;
+}
+.container h1 {
+  margin-bottom: 42px;
 }
 .container .text-muted {
   margin: 20px 0;
@@ -101,11 +108,35 @@ body {
 .container a:hover {
   color: #267723;
 }
+
+a.original-color {
+  color: #000;
+}
+
+a.original-color {
+  color: #000;
+}
+
+a.original-color:hover {
+  color: #000;
+}
+/*
+a:hover {
+  color: #000; 
+}*/
+
 .img-responsive {
  display: block;
  height: auto;
  max-width: 100%;
 }
+.panel-default h2 {
+  text-align: left;
+  margin: 0;
+  /*line-height: 24px;*/
+  /*font-size: 22px;*/
+}
+
 .panel-default h4 {
   text-align: left;
   line-height: 24px;
@@ -128,8 +159,12 @@ body {
 .panel{
   border-style: none;
 }
+.panel-head {
+  text-align: left;
+}
 .panel-body {
   padding-top: -10px;
+  padding-left: 0;
   text-align: left;
 }
 .social {
@@ -163,6 +198,56 @@ body {
   line-height: 30px;
   font-size: 18px;
 }
+
+.img-circle {
+  width: 25%;
+  height: 25%;
+}
+
+.project {
+  margin-bottom: 66px;
+}
+
+.project:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.project-left {
+  float: left;
+  width: 48%;
+}
+
+.project-left img {
+  width: 100%;
+}
+
+.project-right {
+  float: right;
+  width: 48%;
+}
+
+.js-practice:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.item {
+  width: 33%;
+  float: left;
+  padding: 0 10px;
+}
+
+.item img{
+  width: 100%;
+}
+
+/*.demo-gif {
+  width: 50%;
+  height: 50%;
+}*/
 
 /* Footer 
 -------------------------------------------------- */

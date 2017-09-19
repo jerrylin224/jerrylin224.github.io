@@ -13,12 +13,13 @@ safe: true
 # edit here to achieve your personal greatness
 url: http://username.github.io/
 baseurl: /
-title: JiaHung Lin
-author: JiaHung Lin
+title: Jia-Hung Lin
+author: Jia-Hung Lin
 description: Personal blog and resume
-avatar: profile.png
+avatar: profile1.jpg
 email: pk60905@gmail.com
-github: biomadeira/sustain # username
+github: jerrylin224 # username
+medium: pk60905
 twitter: username
 linkedin: username
 stackoverflow: username   #e.g: users/2735833/proton1h1
