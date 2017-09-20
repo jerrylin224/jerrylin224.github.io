@@ -169,13 +169,13 @@ a:hover {
 }
 .social {
   padding-top: 12px;
-  word-spacing: 25px;
+  word-spacing: 6px;
 }
 .social h4 > a {
   color: #000000;
 }
 .avatar {
-  padding-top: 5%;
+  padding: 10% 0 10% 0;
 }
 .blog-post{
   padding-top: 15px;
@@ -244,6 +244,30 @@ a:hover {
   width: 100%;
 }
 
+.introduction {
+  width: 630px;
+  letter-spacing: 1.5px;
+  margin: 40px auto 40px auto;
+}
+
+.introduction h3 {
+  line-height: 32px;
+  text-align: justify;
+}
+
+.nav {
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  font-size: 32px;
+}
+
+.navbar-right a {
+  font-size: 24px;
+}
+
+
 /*.demo-gif {
   width: 50%;
   height: 50%;
@@ -254,13 +278,14 @@ a:hover {
 
 .footer {
   text-decoration: none !important;
+  background: #EEEEEE;
 }
 .text-muted {
 	color: #6b6b6b;
 }
-div.footer{
+/*div.footer{
   border-bottom: 5px solid #27A822;;
-}
+}*/
 /* Set the fixed height of the footer here */
 /*.footer {
   height: 50px;
